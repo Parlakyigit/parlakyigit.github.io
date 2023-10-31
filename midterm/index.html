@@ -27,7 +27,7 @@
       <nav>
         <ul class="nav-list">
           <li><a href="#">Home</a></li>
-          <li><a href="#">Story</a></li>
+          <li class="bordered"><a href="#">Story</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
@@ -73,7 +73,7 @@
       <!-- article end -->
       <!-- the list -->
       <section class="section-fact">
-        <h3>Facts About Starfish</h3>
+        <h2>Facts About Starfish</h2>
         <ul class="facts">
           <li>
             Australian herring barbel Mexican golden trout, killifish bonito;
@@ -97,32 +97,31 @@
       <!-- the list end -->
       <!-- the form -->
       <section>
-        <h4>Contact to learn more</h4>
+        <h2>Contact to learn more</h2>
         <form class="section-form" action="/action_page.php">
           <label for="yname">Your Name</label>
-          <input class="text-input" type="text" id="namebox" name="namebox" />
+          <input class="text-input" type="text" id="yname" name="yname" />
           <label for="yemail">Your Email</label>
-          <input class="text-input" type="text" id="mailbox" name="mailbox" />
+          <input class="text-input" type="text" id="yemail" name="yemail" />
           <label for="ymessage">Your Message</label>
-          <textarea name="ymessage" id="ymessage"></textarea>
-          <h5>Would you like to visit the start fish</h5>
+          <textarea name="ymessage" id="ymessage" rows="10"></textarea>
+          <h3>Would you like to visit the start fish?</h3>
           <div class="radio-buttons">
+            <label>Yes</label>
             <input type="radio" />
-            <label>yes</label>
-            <input type="radio" />
+
             <label>No</label>
             <input type="radio" />
+
             <label>Maybe</label>
+            <input type="radio" />
           </div>
-          <button>Send</button>
+          <button class="button">Send</button>
         </form>
       </section>
+      <!-- the footer -->
       <footer>@starfish copyright</footer>
     </div>
     <!-- the form end -->
-    <!-- the footer -->
-
-    <footer>footer</footer>
-    <!-- footer elements -->
   </body>
 </html>
