@@ -1,0 +1,8 @@
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+
+  min-width: 500px;
+
+  max-width: 800px;
+}
