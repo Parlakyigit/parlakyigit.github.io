@@ -1,34 +1,110 @@
-
-
-/* Media Query for 480px and above */
-@media (min-width: 480px) {
+/* Media Query for 760px and above */
+/*@media (min-width:760px) {
   .banner-image {
     display: none;
-  }
+  }*/
+/* main part */
+header {
+  background-color: #222;
+  color: yellow;
+  padding: 2em;
+}
+.article-logo {
+  background-color: #222;
+  max-width: 100px;
+  height: auto;
+  border: none;
+}
 
-  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+Pro&display=swap');
+.logo-holder {
+  background-color: #c78c06;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
 
-  .article-logo{
-    background-color: black;
-  }
-  nav ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    justify-content: space-around;
+nav ul {
+  display: block;
+  list-style: none;
+  padding: 0px;
+  justify-content: center;
+  text-align: center;
+  overflow: visible;
+  margin-bottom: 10px;
+}
+
+nav ul li {
+  padding: 1em;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color:yellow;
+  text-decoration: none;
+  color: #c78c06;
 }
 
+.home a {
+  color: black;
+}
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+.fa-search {
+}
+
+/*font-family: 'Open Sans',sans-serif;-->
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+Pro&display=swap");
+header {
+  background-color: black;
+  color: yellow;
+  padding: 2em;
+}
+.article-logo {
+  background-color: black;
+  max-width: 100px;
+  height: auto;
+}
+wrapper {
+  max-width: 1200px;
+  margin: auto;}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: yellow;
+}
+
+
+/*
 * {
   box-sizing: border-box;
 }
 
 /* Style the search field */
-form.example input[type=text] {
+form.example input[type="text"] {
   padding: 10px;
   font-size: 17px;
   border: 1px solid grey;
@@ -42,7 +118,7 @@ form.example button {
   float: left;
   width: 20%;
   padding: 10px;
-  background: #2196F3;
+  background: #2196f3;
   color: white;
   font-size: 17px;
   border: 1px solid grey;
@@ -53,19 +129,17 @@ form.example button {
 form.example button:hover {
   background: #0b7dda;
 }
-  
-
 
 .banner-img {
-  /* Associate the img with the grid area 'banner'. */ 
-  grid-area : banner;
+  /* Associate the img with the grid area 'banner'. */
+  grid-area: banner;
 }
 .wrapper {
   max-width: 1200px;
 }
 .banner-text {
   /* Associate the div.banner-text with the grid area 'banner'. */
-grid-area:banner;
+  grid-area: banner;
   align-self: flex-end;
   /*justify-self: canter:*/
 }
@@ -75,13 +149,7 @@ img {
   background-color: black;
 }
 
-header {
-  background-color: black;
-  color: yellow;
-  padding: 1rem;
-}
-
-  .parent {
+.parent {
   display: flex;
   flex-wrap: wrap;
 
@@ -94,7 +162,5 @@ div {
   background-image: url("main-banner.jpg");
 }
 
-.half-black {
-  background: rgba(0, 0, 0, 0.5);
+@media screen and (min-width: 760px) {
 }
-
