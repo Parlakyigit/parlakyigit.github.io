@@ -136,6 +136,8 @@ form button {
   width: 100%;
 }
 
+/* Our Services */
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -253,17 +255,6 @@ form button {
   border: none;
 }
 
-/* table */
-
-/*  */
-
-footer {
-  background-color: #222222;
-  color: #c08934;
-}
-
-/* Media Query for 760px and above */
-
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -280,6 +271,15 @@ footer {
 .contact-grid .grid-3 {
   grid-area: g3;
 }
+
+/* footer */
+
+footer {
+  background-color: #222222;
+  color: #c08934;
+}
+
+/* Media Query for 760px and above */
 
 @media screen and (max-width: 760px) {
   header {
