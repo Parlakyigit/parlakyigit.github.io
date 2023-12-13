@@ -21,38 +21,39 @@
     <header>
       <!-- navbar -->
       <div class="wrapper">
-        <div class="logo-holder">
-          <img class="article-logo" src="./images/logo.png" alt="logo" />
+        <div class="menu">
+          <div class="logo-holder">
+            <img class="article-logo" src="./images/logo.png" alt="logo" />
+          </div>
+          <nav>
+            <ul>
+              <li class="home"><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <form class="example" action="action_page.php">
+            <input type="text" placeholder="Search.." name="search" />
+            <button type="submit">
+              <span class="material-symbols-outlined"> search </span>
+            </button>
+          </form>
         </div>
-        <nav>
-          <ul>
-            <li class="home"><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
       </div>
 
       <!--navbar end  -->
       <!-- The form -->
-      <div>
-        <form class="example" action="action_page.php">
-          <input type="text" placeholder="Search.." name="search" />
-          <button type="submit">
-            <span class="material-symbols-outlined"> search </span>
-          </button>
-        </form>
-      </div>
+      <div class="wrapper2"></div>
     </header>
     <!---form end-->
     <!-- the header end -->
 
     <main>
       <section>
-        <img
-          class="banner-img"
+        <!-- <img
+          class="banner-img2"
           src="./images/main-banner.jpg"
           alt="main-banner"
         />
@@ -60,11 +61,19 @@
           <h1 class="banner-title">Welcome to Three Star Media</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <button>Connect with us►</button>
+        </div> -->
+
+        <div class="banner-img2">
+          <div class="banner-text">
+            <h1 style="font-size: 60px">Welcome to Three Star Media</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="button2">Connect with us►</button>
+          </div>
         </div>
       </section>
 
       <!-- first section -->
-      <section>
+      <section class="about-us">
         <img class="article-image" src="./images/about-us.jpg" alt="image" />
         <h2 class="article-header">About Us</h2>
         <p>
@@ -82,10 +91,10 @@
       </section>
       <!-- first section end -->
       <!-- second section -->
-      <section>
+      <section id="Services" class="bg-part">
         <h2>Our Services</h2>
         <div class="wrapper">
-          <div>
+          <div class="grid">
             <img src="./images/digital.jpg" alt="digital devices" />
             <h2>Digital Transformation</h2>
             <p>
@@ -94,10 +103,10 @@
               Doloribus ullam, fuga harum ea nam expedita possimus sed beatae
               eos et culpa?
             </p>
-            <button>Digital Plans►</button>
+            <button class="btn">Digital Plans►</button>
           </div>
 
-          <div>
+          <div class="grid">
             <img src="./images/marketing.jpg" alt="picture for marketing" />
             <h2>Marketing</h2>
             <p>
@@ -106,10 +115,10 @@
               Doloribus ullam, fuga harum ea nam expedita possimus sed beatae
               eos et culpa?
             </p>
-            <button>Marketing Plans►</button>
+            <button class="btn">Marketing Plans►</button>
           </div>
 
-          <div>
+          <div class="grid">
             <img src="./images/video.jpg" alt="video on the phone screen" />
             <h2>Video Production</h2>
             <p>
@@ -118,9 +127,9 @@
               Doloribus ullam, fuga harum ea nam expedita possimus sed beatae
               eos et culpa?
             </p>
-            <button>Video Plans►</button>
+            <button class="btn">Video Plans►</button>
           </div>
-          <div>
+          <div class="grid">
             <img src="./images/web.jpg" alt="Web development picture" />
             <h2>Web Development</h2>
             <p>
@@ -129,9 +138,9 @@
               Doloribus ullam, fuga harum ea nam expedita possimus sed beatae
               eos et culpa?
             </p>
-            <button>Web Plans►</button>
+            <button class="btn">Web Plans►</button>
           </div>
-          <div>
+          <div class="grid">
             <img src="./images/print.jpg" alt="image for Print" />
             <h2>Print</h2>
             <p>
@@ -140,7 +149,7 @@
               Doloribus ullam, fuga harum ea nam expedita possimus sed beatae
               eos et culpa?
             </p>
-            <button>Print Plans►</button>
+            <button class="btn">Print Plans►</button>
           </div>
         </div>
       </section>

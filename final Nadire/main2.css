@@ -1,0 +1,46 @@
+/*#c78c06, #ffe6ac, #222 and white*/
+
+body {
+  font-family: Open, sans-serif;
+  margin: zero;
+}
+
+h1 {
+  /* fonts size*/
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+/* header styles */
+header {
+  background-color: black;
+  color: #c78c06;
+  padding: 2em;
+}
+.bg-black {
+  background-color: black;
+}
+header span {
+  display: inline-block;
+  font-size: 1, 5 rem;
+  font-weight: 500;
+  width: 100%;
+  text-align: right;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-around;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #c78c06;
+}
