@@ -68,6 +68,7 @@ form button {
   cursor: pointer;
 }
 
+/* Welcome to Three Star Media */
 .banner {
   background-image: url("../images/main-banner.jpg");
   background-size: cover;
@@ -82,18 +83,30 @@ form button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
+  width: 95%;
 }
 
 .banner-text h1 {
   color: #ffffff;
   font-size: 50px;
   font-weight: 700;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+  text-align: left;
+  margin: 10;
+  padding: 10;
+  margin-left: 10px;
 }
-.banner-text .button {
+
+.banner-text p {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 100;
+  text-align: left;
+  margin: 10;
+  padding: 10;
+  margin-left: 10px;
+}
+
+.banner-text button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,7 +114,11 @@ form button {
   background-color: #c78c06;
   width: 300px;
   height: 35px;
+  margin-left: 10px;
 }
+
+/* About Us */
+
 .about-us {
   background-color: #f9e3b2;
 }
@@ -212,6 +229,8 @@ form button {
 .member-2.two-cols {
   flex-direction: row-reverse;
 }
+
+/* contact us */
 
 .contact form {
   display: flex;
